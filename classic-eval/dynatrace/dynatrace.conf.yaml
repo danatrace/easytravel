@@ -7,4 +7,4 @@ attachRules:
     - SERVICE
     tags:
     - context: CONTEXTLESS
-      key: $SERVICE
+      key: classiv-eval
