@@ -1,5 +1,6 @@
 ---
 spec_version: '0.1.0'
+dashboard: query
 dtCreds: dynatrace
 attachRules:
   tagRule:
@@ -7,4 +8,4 @@ attachRules:
     - SERVICE
     tags:
     - context: CONTEXTLESS
-      key: classiv-eval
+      key: $SERVICE
